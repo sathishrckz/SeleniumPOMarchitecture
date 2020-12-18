@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="70647" started-at="2020-12-18T07:27:05Z" finished-at="2020-12-18T07:28:15Z">
+    <groups>
+    </groups>
+    <test name="Test01" duration-ms="33893" started-at="2020-12-18T07:27:05Z" finished-at="2020-12-18T07:27:39Z">
+      <class name="com.page.TestCases.TC01HomePageTest">
+        <test-method status="PASS" signature="browserlaunch()[pri:0, instance:com.page.TestCases.TC01HomePageTest@1593948d]" name="browserlaunch" is-config="true" duration-ms="6657" started-at="2020-12-18T12:57:05Z" finished-at="2020-12-18T12:57:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method status="PASS" signature="hometest()[pri:0, instance:com.page.TestCases.TC01HomePageTest@1593948d]" name="hometest" duration-ms="26427" started-at="2020-12-18T12:57:11Z" finished-at="2020-12-18T12:57:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hometest -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.page.TestCases.TC01HomePageTest@1593948d]" name="closebrowser" is-config="true" duration-ms="761" started-at="2020-12-18T12:57:38Z" finished-at="2020-12-18T12:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.page.TestCases.TC01HomePageTest -->
+    </test> <!-- Test01 -->
+    <test name="Test02" duration-ms="36725" started-at="2020-12-18T07:27:39Z" finished-at="2020-12-18T07:28:15Z">
+      <class name="com.page.TestCases.TC02TodaysdealsTest">
+        <test-method status="PASS" signature="browserlaunch()[pri:0, instance:com.page.TestCases.TC02TodaysdealsTest@6d4b1c02]" name="browserlaunch" is-config="true" duration-ms="5579" started-at="2020-12-18T12:57:39Z" finished-at="2020-12-18T12:57:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method status="FAIL" signature="Todaysdelastest()[pri:0, instance:com.page.TestCases.TC02TodaysdealsTest@6d4b1c02]" name="Todaysdelastest" duration-ms="30349" started-at="2020-12-18T12:57:44Z" finished-at="2020-12-18T12:58:14Z">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="/gp/goldbox?ref_=nav_cs_gb" class="nav-a  " tabindex="0" data-csa-c-type="link" data-csa-c-slot-id="nav_cs_3" data-csa-c-content-id="nav_cs_gb" data-csa-c-id="1pasv2-pet71v-t2qw7q-ge1seo">...</a> is not clickable at point (360, 79). Other element would receive the click: <ul class="hmenu dsk-hmenu-reorganization hmenu-visible" data-menu-id="1">...</ul>
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PU29T00', ip: '192.168.225.218', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\SATHISH\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57441}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1c06bc7f89070b8741b654f8bc064cbc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/gp/goldbox?ref_=nav_cs_gb" class="nav-a  " tabindex="0" data-csa-c-type="link" data-csa-c-slot-id="nav_cs_3" data-csa-c-content-id="nav_cs_gb" data-csa-c-id="1pasv2-pet71v-t2qw7q-ge1seo">...</a> is not clickable at point (360, 79). Other element would receive the click: <ul class="hmenu dsk-hmenu-reorganization hmenu-visible" data-menu-id="1">...</ul>
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PU29T00', ip: '192.168.225.218', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\SATHISH\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57441}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1c06bc7f89070b8741b654f8bc064cbc
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.page.Pageobjects.HomePage.Clicktodaysdeals(HomePage.java:41)
+	at com.page.TestCases.TC02TodaysdealsTest.Todaysdelastest(TC02TodaysdealsTest.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Todaysdelastest -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.page.TestCases.TC02TodaysdealsTest@6d4b1c02]" name="closebrowser" is-config="true" duration-ms="789" started-at="2020-12-18T12:58:15Z" finished-at="2020-12-18T12:58:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.page.TestCases.TC02TodaysdealsTest -->
+    </test> <!-- Test02 -->
+  </suite> <!-- Suite -->
+</testng-results>
