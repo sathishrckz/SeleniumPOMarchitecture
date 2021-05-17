@@ -25,12 +25,13 @@ public class BaseClass {
 		
 	
 	public static void driverlaunch(String browser) {
-	if(browser.equalsIgnoreCase("chrome")) {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\SATHISH\\eclipse-workspace\\Mytestcrm\\src\\chromedriver.exe");
+	
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\SATHISH\\Downloads\\chromedriver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		//driver.get(prop.getProperty("baseurl"));
+		System.out.println("Browser started");
 	}
-	}
+	
 	
 	
 

@@ -20,7 +20,7 @@ public class HomePage extends BaseClass {
 	
 	By mobiles = By.xpath("//a[text()='Mobiles']");
 	
-	By todaysdeals = By.xpath("//a[contains(text(),'Today')]");
+	By bestsellers = By.xpath("//*[@id='hmenu-content']/ul[1]/li[2]/a");
 	
 	By submenuall = By.xpath("//*[@class='hm-icon-label' and text()='All']");
 	
@@ -37,8 +37,8 @@ public class HomePage extends BaseClass {
 		driver.findElement(mobiles).click();
 	}
 	
-	public void Clicktodaysdeals() {
-		driver.findElement(todaysdeals).click();
+	public void Clickbestsellers() {
+		driver.findElement(bestsellers).click();
 	}
 	
 	public void Clicksubmenuall() {

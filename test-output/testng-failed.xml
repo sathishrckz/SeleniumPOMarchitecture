@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test02(failed)">
+  <test name="Test(failed)">
     <classes>
       <class name="com.page.TestCases.TC02TodaysdealsTest">
         <methods>
@@ -11,5 +11,5 @@
         </methods>
       </class> <!-- com.page.TestCases.TC02TodaysdealsTest -->
     </classes>
-  </test> <!-- Test02(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

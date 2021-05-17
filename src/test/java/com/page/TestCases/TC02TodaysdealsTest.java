@@ -21,23 +21,17 @@ public class TC02TodaysdealsTest extends BaseClass {
 		// TODO Auto-generated constructor stub
 	}
 
-	@BeforeTest
-	public void browserlaunch() {
-		driverlaunch("chrome");
-		driver.manage().window().maximize();
-	}
 	
 	@Test
 	public void Todaysdelastest() {
+		driverlaunch("chrome");
+		driver.manage().window().maximize();
 		driver.get(prop.getProperty("baseurl"));
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		hp.Clicksubmenuall();
-		hp.Clicktodaysdeals();
-	
-	}
-	
-	@AfterTest
-	public void closebrowser() {
+		//hp.Clickbestsellers();
 		driver.quit();
 	}
+	
+	
 }
