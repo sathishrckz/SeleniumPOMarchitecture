@@ -26,8 +26,9 @@ public class TC01HomePageTest extends BaseClass {
 		System.out.println("Browser started");
 		driver.manage().window().maximize();		
 		driver.get(prop.getProperty("baseurl"));
+		System.out.println("application opened");
 		driver.quit();
-		
+		System.out.println("Browser closed");
 	}
 	
 	
